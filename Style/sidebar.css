@@ -1,0 +1,28 @@
+.sidebar{
+    position: fixed;
+    top:60px; /* same as heighr of top menu-bar */
+    left: 0px;
+    bottom: 0;
+    width: 70px;
+    background-color: white;
+    font-family: roboto, ariel;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.side{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+margin-top: 15px;
+padding-bottom: 10px;
+}
+.side-icon{
+  width: 25px; 
+  padding-bottom: 10px; 
+  
+}
+.side-button{
+font-size: 10px;
+}
