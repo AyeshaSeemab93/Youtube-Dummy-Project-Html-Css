@@ -1,28 +1,35 @@
 .sidebar{
     position: fixed;
-    top:60px; /* same as heighr of top menu-bar */
+    top:55px; /* same as heighr of top menu-bar */
     left: 0px;
     bottom: 0;
-    width: 70px;
+    width: 90px;
     background-color: white;
     font-family: roboto, ariel;
-    padding-left: 10px;
-    padding-right: 10px;
+
+    z-index: 200;
+  
 }
 
 .side{
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
-align-items: center;
-margin-top: 15px;
-padding-bottom: 10px;
+justify-content: center;
+align-items:center;
+padding-top: 15px;
+padding-bottom: 15px;
+cursor: pointer;
 }
+.side:hover{
+  background-color: rgba(213, 209, 209, 0.424);
+}
+
 .side-icon{
   width: 25px; 
-  padding-bottom: 10px; 
+  padding-bottom: 6px; 
   
 }
 .side-button{
-font-size: 10px;
+font-size: 10.5px;
 }

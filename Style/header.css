@@ -14,6 +14,7 @@
    left: 0;
    right: 0;
    background-color: white;
+   z-index: 100; /*appear on top of all kind of positions(relative etc)*/
 
 }
 
@@ -97,17 +98,34 @@ padding-left: 10px;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0; /*does not reduce in size*/
-   
+    margin-left: 10px;
 }
 .right-section > *{
   height: 26px;
 }
-.upload{
-    margin-left: 10px;
-
-
+.notification-bell{
+    position: relative;
 }
+.notification-bell > img{
+    height: 26px;
+  }
+  .num{
+    background-color: #CC0100;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 50px;
+    border: white;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    z-index: 1;
+   
+
+
+  }
 .myprofile{
 margin-right: 20px;
 height: 25px; /*little bigger than others*/
