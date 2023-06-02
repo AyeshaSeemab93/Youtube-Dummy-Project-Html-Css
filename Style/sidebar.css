@@ -1,13 +1,13 @@
 .sidebar{
     position: fixed;
-    top:55px; /* same as heighr of top menu-bar */
+    top:55px; /* same as height of top menu-bar */
     left: 0px;
     bottom: 0;
-    width: 90px;
+    width: 70px;
     background-color: white;
     font-family: roboto, ariel;
-
-    z-index: 200;
+    z-index: 500;
+  padding-top: 5px;
   
 }
 
@@ -18,7 +18,7 @@ flex-wrap: nowrap;
 justify-content: center;
 align-items:center;
 padding-top: 15px;
-padding-bottom: 15px;
+padding-bottom: 17px;
 cursor: pointer;
 }
 .side:hover{
@@ -26,7 +26,7 @@ cursor: pointer;
 }
 
 .side-icon{
-  width: 25px; 
+  width: 24px; 
   padding-bottom: 6px; 
   
 }
