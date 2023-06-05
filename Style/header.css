@@ -1,5 +1,5 @@
-.header{
-   
+.header
+{
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -8,49 +8,46 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.2rem;
-   border-bottom: solid;
-   border-color: rgb(222, 221, 221);
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   background-color: white;
-   z-index: 100; /*appear on top of all kind of positions(relative etc)*/
-
+    border-bottom: solid;
+    border-color: rgb(222, 221, 221);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100; /*appear on top of all kind of positions(relative etc)*/
 }
-.header img{
+.header img
+{
     cursor: pointer;
 }
-
-
-.left-section{
-  
-  width: 170px;
+.left-section
+{  
+    width: 170px;
     margin-right: 10px;/*bec even screen is very small there is always space in between/does not merge*/
     display: flex; /*another flex inside flex bec we need to align items in inner div and outer div flex doesnot work on elements that are inside the inner div*/
     align-items: center;
- 
 }
-
-.hamburger-menu{
+.hamburger-menu
+{
     height: 24px; /*size of logo*/
     margin: 20px; /*space on both side of logo*/
 }
-.youtube-logo{
+.youtube-logo
+{
     height: 20px; /*size of logo*/
     margin-left: 5px;
 }
-
-
-.middle-section{
- 
+.middle-section
+{ 
     flex: 1; /*bec it grows with chaning size/ responsive*/
     max-width: 500px; /* bec grows until certain width(350px) and then no more grow with changing size*/
     display: flex; /* to align items indie*/
     align-items: center;
     /* background-color: aqua; */
 }
-.search-box{ 
+.search-box
+{ 
     padding-left: 6px;
    height: 35px;
     border: solid;
@@ -62,10 +59,10 @@
     width: 0; /* to remove default width so it can shrink max*/
     padding: 2px 10px;
     font-size: 16px;
-    font-family: roboto,arial;
     font-weight: lighter;   
 }
-.search-button{
+.search-button
+{
     height: 41px;
     border-color: rgb(199, 198, 198);
     background-color: #EFEFEF;
@@ -77,16 +74,19 @@
     margin-left: -2px;/*to merge inner borders of both*/
     position: relative;
 }
-.search-icon{
- height: 22px;
-margin-top: 2px;/*to adjust in the centre*/
-padding-right: 10px;
-padding-left: 10px;
+.search-icon
+{
+    height: 22px;
+    margin-top: 2px;/*to adjust in the centre*/
+    padding-right: 10px;
+    padding-left: 10px;
 }
-.mike-icon{
+.mike-icon
+{
     position: relative;
 }
-.voice-search{
+.voice-search
+{
     height: 24px;
     border: none;
     border-radius: 20px;
@@ -95,7 +95,8 @@ padding-left: 10px;
     margin-left: 10px;
 }
 
-.right-section{
+.right-section
+{
     width: 205px;
     margin-left: 20px;/* bec does not merge ever with middle section*/
     display: flex;
@@ -107,26 +108,28 @@ padding-left: 10px;
     margin-left: 10px;
    
 }
-.right-section *{
+.right-section *
+{
   height: 24px;
   position: relative;
 }
 
-  .num{
+  .num
+  {
     background-color: #CC0100;
     color: white;
     padding: 1px 4px;
     border-radius: 50px;
     border: white;
     font-size: 10px;
-    font-family: Roboto, ariel;
     position: absolute;
     top: -1px;
     right: -3px;
     height: 13px;
     z-index: 1; /*to keep it in front of bell*/
   }
-.myprofile img{
+.myprofile img
+{
 margin-right: 22px;
 height: 32px; /*little bigger than others*/
 }
@@ -138,7 +141,8 @@ height: 32px; /*little bigger than others*/
 .mike-icon,
 .upload,
 .youtube-app,
-.notification-bell{
+.notification-bell
+{
 /*for tooltip text to be at centre*/
   display: flex;
   justify-content: center;
@@ -149,8 +153,8 @@ height: 32px; /*little bigger than others*/
 .mike-icon .tool-tip,
 .upload .tool-tip,
 .youtube-app .tool-tip,
-.notification-bell .tool-tip{
-  font-family: Roboto, Arial;
+.notification-bell .tool-tip
+{
   position: absolute;
   background-color: gray;
   color: white;
@@ -168,7 +172,8 @@ height: 32px; /*little bigger than others*/
 }
 .upload .tool-tip,
 .youtube-app .tool-tip,
-.notification-bell .tool-tip{
+.notification-bell .tool-tip
+{
      bottom: -45px;
      padding-bottom: 0px;
 }

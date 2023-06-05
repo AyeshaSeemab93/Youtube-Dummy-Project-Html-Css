@@ -1,35 +1,39 @@
-.sidebar{
+.sidebar
+{
     position: fixed;
     top:55px; /* same as height of top menu-bar */
     left: 0px;
     bottom: 0;
     width: 70px;
     background-color: white;
-    font-family: roboto, ariel;
     z-index: 500;
-  padding-top: 5px;
+    padding-top: 5px;
   
 }
 
-.side{
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-justify-content: center;
-align-items:center;
-padding-top: 15px;
-padding-bottom: 17px;
-cursor: pointer;
+.side
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    cursor: pointer;
 }
-.side:hover{
-  background-color: rgba(213, 209, 209, 0.424);
+.side:hover
+{
+    background-color: rgba(213, 209, 209, 0.424);
 }
 
-.side-icon{
-  width: 24px; 
-  padding-bottom: 6px; 
-  
+.side-icon
+{
+    width: 24px; 
+    padding-bottom: 6px; 
+    
 }
-.side-button{
-font-size: 10.5px;
+.side-button
+{
+    font-size: 10.5px;
 }
